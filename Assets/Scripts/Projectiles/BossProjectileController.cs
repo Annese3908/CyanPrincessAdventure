@@ -8,7 +8,6 @@ public class BossProjectileController : MonoBehaviour
     public Projectile data;
     [SerializeField] private SpawnerType spawnerType;
     float fireRate;
-
     float coolDownMax = 10;
     float coolDownMin = 5;
     float coolDown;
@@ -52,9 +51,7 @@ public class BossProjectileController : MonoBehaviour
     }
 
     void Attack(){
-        GameObject projectile = Instantiate(data.Prefab);
-        projectile.transform.position = transform.position;
-        projectile.transform.rotation = transform.rotation;
+        GameObject projectile = Instantiate(data.Prefab, transform.position, transform.rotation);
         fireRate = data.CooldownDuration;
     }
 }

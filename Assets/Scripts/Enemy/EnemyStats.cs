@@ -11,7 +11,7 @@ public class EnemyStats : MonoBehaviour
     protected float currHealth;
     protected float currDamage;
     protected int currScore;
-    float dropChance = 0.25f;
+    float dropChance = 0.3f;
     // Start is called before the first frame update
     protected virtual void Awake()
     {

@@ -146,7 +146,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: 6fd741437a59b4e3987c452d804041f4, type: 2}
   lifeTime: 5
-  rotation: 0
 --- !u!82 &-3068251609453822159
 AudioSource:
   m_ObjectHideFlags: 0
@@ -159,7 +158,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 136482c24a9744d5b992990c8f4c071a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 0.5
   Loop: 0
   Mute: 0

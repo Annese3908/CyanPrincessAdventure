@@ -1295,7 +1295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04ee9b3cface24edb8f21a270174bfdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.151
+  speed: 0.101
   bgRenderer: {fileID: 714021972}
 --- !u!64 &714021971
 MeshCollider:
@@ -5222,7 +5222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04ee9b3cface24edb8f21a270174bfdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.15
+  speed: 0.1
   bgRenderer: {fileID: 1942415291}
 --- !u!1 &1991433351
 GameObject:
@@ -5777,6 +5777,10 @@ PrefabInstance:
     - target: {fileID: 476870388020416079, guid: 4f61463b1454640fab6c6b4093a59211, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 476870388020416079, guid: 4f61463b1454640fab6c6b4093a59211, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2331686766219809615, guid: 4f61463b1454640fab6c6b4093a59211, type: 3}
       propertyPath: m_LocalPosition.x

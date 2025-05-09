@@ -14,7 +14,7 @@ public class GridMovement : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col){
         if(col.CompareTag("Boundary")){
-            transform.position = new Vector3(transform.position.x, transform.position.y - .75f, transform.position.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y - .5f, transform.position.z);
             moveSpeed *= -1;
         }
     }
